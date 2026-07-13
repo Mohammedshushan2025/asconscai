@@ -56,9 +56,9 @@
         </intent>
     </queries>
     <application
-        android:label="HR SYSTEM"
+        android:label="HR SYSTEM demo"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

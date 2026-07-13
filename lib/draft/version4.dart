@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ascon Scai',
+      title: 'Secure Scai',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: kPrimaryColor,
@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
         duration: 5000, // 5 ثواني
         splash: Hero(
           tag: 'logo',
-          child: Image.asset('assets/images/logo.jpg'),
+          child: Image.asset('assets/images/newlogo.jpeg'),
         )
             .animate()
             .scale(
@@ -154,7 +154,7 @@ class _LoginPageState extends State<LoginPage> {
                   Hero(
                     tag: 'logo',
                     child: Image.asset(
-                      'assets/images/logo.jpg',
+                      'assets/images/newlogo.jpeg',
                       height: 150,
                     ),
                   )

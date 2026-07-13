@@ -418,7 +418,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ],
       ),
       child: CircleAvatar(
-        backgroundImage: const AssetImage('assets/newlogo.png'),
+        backgroundImage: const AssetImage('assets/newnewlogo.jpeg'),
         backgroundColor: Colors.white,
       ),
     );
@@ -535,7 +535,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Padding(
       padding: const EdgeInsets.only(bottom: 20.0, top: 10.0),
       child: Text(
-        'Ascon SCAi © 2025',
+        'Secure SCAi © 2025',
         textAlign: TextAlign.center,
         style: GoogleFonts.poppins(
           fontSize: 16,
@@ -997,7 +997,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ],
       ),
       child: CircleAvatar(
-        backgroundImage: const AssetImage('assets/logo.jpg'),
+        backgroundImage: const AssetImage('assets/newlogo.jpeg'),
         backgroundColor: Colors.white,
       ),
     );
@@ -1114,7 +1114,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Padding(
       padding: const EdgeInsets.only(bottom: 20.0, top: 10.0),
       child: Text(
-        'Ascon © 2026',
+        'Secure Scai © 2026',
         textAlign: TextAlign.center,
         style: GoogleFonts.poppins(
           fontSize: 16,

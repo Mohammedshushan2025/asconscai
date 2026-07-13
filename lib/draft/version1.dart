@@ -6,7 +6,7 @@ class AsconScaiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ascon Scai',
+      title: 'Secure Scai',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: 'Roboto',

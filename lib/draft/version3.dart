@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ascon Scai',
+      title: 'Secure Scai',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -85,7 +85,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                       ],
                     ),
                     child: Image.asset(
-                      'assets/logo.png',
+                      'assets/newlogo.jpeg',
                       width: size.width * 0.4,
                       height: size.width * 0.4,
                     ),
@@ -256,7 +256,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                           tag: 'logo',
 
                             child: Image.asset(
-                              'assets/logo.png',
+                              'assets/newlogo.jpeg',
                               width: size.width * 0.25,
                               height: size.width * 0.25,
                             ),

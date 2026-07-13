@@ -274,7 +274,7 @@ class _LoginScreenState extends State<LoginScreen>
                                   ],
                                 ),
                                 child: 
-                                CircleAvatar(backgroundImage: AssetImage("assets/logo.jpg"))
+                                CircleAvatar(backgroundImage: AssetImage("assets/newlogo.jpeg"))
                                 /*Center(
                                   child: Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
@@ -578,7 +578,7 @@ class AsconScaiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ascon Scai',
+      title: 'Secure Scai',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: 'Roboto',
@@ -834,7 +834,7 @@ class _LoginScreenState extends State<LoginScreen>
                                   color: Colors.white,
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
-                                    image: AssetImage("assets/images/logo.jpg"),
+                                    image: AssetImage("assets/images/newlogo.jpeg"),
                                     fit: BoxFit.cover,
                                   ),
                                   boxShadow: [

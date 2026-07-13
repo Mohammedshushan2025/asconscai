@@ -104,7 +104,7 @@ class AiService {
   String _buildSystemPrompt() {
     final buffer = StringBuffer();
 
-    buffer.writeln('أنت مساعد HR ذكي لشركة ASCON SCAI.');
+    buffer.writeln('أنت مساعد HR ذكي لشركة Secure SCAI.');
     buffer.writeln(
       'مهمتك مساعدة الموظفين في الاستفسار عن شؤونهم الوظيفية بأسلوب ودود ومحترف.',
     );
